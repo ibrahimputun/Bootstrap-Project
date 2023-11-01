@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR */
+.bg-dark{
+    background-color: #212529!important;
+}
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+/* BANNER */
+.container-fluid {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.banner {
+    background: url(./img/banner.jpeg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: purple;
+    height: 100vh;
+}
+
+/* SERVICES */
+
+.pb-5 {
+    padding-bottom: 3rem!important;
+}
+.pt-5 {
+    padding-top: 3rem!important;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+}
+/* PORTFOLIO */
+/* ABOUT US */
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+.float-md-end {
+    float: right!important;
+}
+.product-img {
+    object-fit: cover;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+/* OUR TEAM */
+
+.text-center {
+    text-align: center!important;
+}
+.g-4, .gy-4 {
+    --bs-gutter-y: 1.5rem;
+}
+.g-4, .gx-4 {
+    --bs-gutter-x: 1.5rem;
+}
+
+.team img {
+    width: 250px;
+    border: 10px solid #cccccc;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+
+
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+/* CLIENT */
+
+.pb-5 {
+    padding-bottom: 3rem!important;
+}
+.pt-5 {
+    padding-top: 3rem!important;
+}
+
+text-center {
+    text-align: center!important;
+}
+
+.client img {
+    height: auto;
+    max-height: 50px;
+}
+/* CONTACT US */
+
+.contact {
+    background: url(./img/map.jpeg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #eee;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+/* BUTTON */
